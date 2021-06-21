@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="775f93d5-3006-42ec-a2b1-1ce98fd2bb98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Robot Test Suite" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>locate_config</find>
+      <find>image_and</find>
+      <find>robot_</find>
+      <find>robot</find>
+      <find>file_to_read</find>
+      <find>Please check the device connection and try again</find>
+      <find>yaml_path</find>
+      <find>common_yaml_path</find>
+      <find>section</find>
+      <find>Updating yaml file</find>
+      <find>get_session</find>
+      <find>robot_log_path</find>
+      <find>Setup Log</find>
+      <find>gc.ROBOT</find>
+      <find>device_id</find>
+      <find>gc.ROBOT_LOG_PATH</find>
+      <find>yamlData</find>
+      <find>create_excel</find>
+      <find>yaml</find>
+      <find>suite</find>
+      <find>_out</find>
+      <find>_out.txt</find>
+      <find>session</find>
+      <find>project_name</find>
+      <find>project</find>
+      <find>merge</find>
+      <find>get_framework_logs_path</find>
+      <find>setup_logging</find>
+      <find>merge_logs</find>
+      <find>iteration_path</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/automation/resources/cellular/backup_res_common.robot" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/cellular_automation_helpers/common_helper_functions/common_functions.py" />
+        <option value="$PROJECT_DIR$/automation/variables/variables_common.yaml" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/cellular_automation_helpers/common_helper_functions/excel_sheet.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/Pixel_10_Google229_runerr.txt" />
+        <option value="$PROJECT_DIR$/automation/results/logs/GATS_PROJECT/milestone1/229/Pixel_10_Google/Pixel_startexec.txt" />
+        <option value="$PROJECT_DIR$/automation/resources/cellular/res_common.robot" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/cellular_automation_helpers/common_helper_functions/device_reports.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/robot_scripts/Airtel_Stability_copy.robot" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/result_folder.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/device_info.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/database_query.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/globalconstants.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/common_log.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/log_utils.py" />
+        <option value="$PROJECT_DIR$/automation/resources/platform/res_common.robot" />
+        <option value="$PROJECT_DIR$/automation/results/GATS_PROJECT/test_configuration/229/GooglePixel_01_10_Google/variables_common.yaml" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/YamlUtils.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/read.json" />
+        <option value="$PROJECT_DIR$/automation/scripts/robot_scripts/Airtel_Stability.robot" />
+        <option value="$PROJECT_DIR$/automation/scripts/robot_scripts/Live_Stability.robot" />
+        <option value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/gats.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="480" />
+    <option name="y" value="24" />
+    <option name="width" value="884" />
+    <option name="height" value="671" />
+  </component>
+  <component name="ProjectId" id="1sq7LN62GiIYEe7ayvehbKBl5gd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Airtel_Stability" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Airtel_Stability" type="462c0819:PsiDirectoryNode" />
+              <item name="GooglePixel_01_10_Google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Airtel_Stability" type="462c0819:PsiDirectoryNode" />
+              <item name="GooglePixel_01_10_Google" type="462c0819:PsiDirectoryNode" />
+              <item name="229" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Airtel_Stability" type="462c0819:PsiDirectoryNode" />
+              <item name="GooglePixel_01_10_Google" type="462c0819:PsiDirectoryNode" />
+              <item name="229" type="462c0819:PsiDirectoryNode" />
+              <item name="TC_Airtel_Stability_001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Airtel_Stability" type="462c0819:PsiDirectoryNode" />
+              <item name="GooglePixel_01_10_Google" type="462c0819:PsiDirectoryNode" />
+              <item name="229" type="462c0819:PsiDirectoryNode" />
+              <item name="TC_Airtel_Stability_001" type="462c0819:PsiDirectoryNode" />
+              <item name="iteration_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Merged_Output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gats" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="GATS_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="Merged_Output" type="462c0819:PsiDirectoryNode" />
+              <item name="229" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/automation/scripts/libraries/framework_utils" />
+      <recent name="$PROJECT_DIR$/automation/scripts/robot_scripts" />
+      <recent name="$PROJECT_DIR$/automation/resources/cellular" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/automation/scripts/libraries/cellular_automation_helpers" />
+      <recent name="$PROJECT_DIR$/automation/scripts" />
+      <recent name="$PROJECT_DIR$/automation" />
+      <recent name="$PROJECT_DIR$/automation/scripts/libraries/framework_utils" />
+      <recent name="$PROJECT_DIR$/automation/scripts/libraries/automation_helpers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gats" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scheduler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="775f93d5-3006-42ec-a2b1-1ce98fd2bb98" name="Default Changelist" comment="" />
+      <created>1619069148609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619069148609</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" weight="0.32942098" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26772907" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27055305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26606876" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
+      <window_info anchor="bottom" id="Pylint" order="7" weight="0.32884902" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884902" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884902" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32884902" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24940239" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/common_log.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py</url>
+          <line>406</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <line>339</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/log_utils.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/log_utils.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py</url>
+          <line>262</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/229/Pixel_10_Google/Live_Stability/TC_Live_Stability_001/iteration_1/TC_Live_Stability_001_20210430-143353" />
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/Pixel22926_err.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/android_version_11/11/11/11/uiconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/android_version_10/10/10/Google/uiconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/android_version_10/10/10/Google/PixelXL/uiconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/android_version_10/10/10/Google/Pixel3a/sargo/uiconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/data_to_csv_229.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/Pixel26_out.txt" />
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/Pixel_10_Google229_runerr.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/26_out.txt" />
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/229/Pixel_10_Google/uiconfig.yaml" />
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/229/Pixel_10_Google/Pixel_startexec.txt" />
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/229/Pixel_10_Google/variables_common.yaml" />
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/variables_common.yaml" />
+    <entry file="file://$PROJECT_DIR$/automation/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration-FW.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/Pixel22926_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/Pixel_10_Google229_runout.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/uiconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/result_folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/Pixel_10_Google/26/variables_common.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/device_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/database_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/read.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/cellular_automation_helpers/common_helper_functions/excel_sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/Airtel_Stability/GooglePixel_01_10_Google/229/TC_Airtel_Stability_001/iteration_1/TC_Airtel_Stability_001_20210510-114232">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/resources/cellular/res_common.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/framework_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/variables_common.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/read.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/android_version_10/Google/Pixel3a/uiconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/variables/variables_framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/read_copy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/GooglePixel_01_10_Google229_runerr.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/GooglePixel_0122926_err.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/results/GATS_PROJECT/test_configuration/229/GooglePixel_01_10_Google/variables_common.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/read.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/YamlUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/modem_logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="283" column="63" selection-start-line="283" selection-start-column="63" selection-end-line="283" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/log_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/globalconstants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/automation_helpers/common_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/resources/platform/res_common.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#1#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/robot_scripts/Live_Stability.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/robot_scripts/Airtel_Stability.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1199943127/gc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/GooglePixel_01_10_Google229_runout.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/GooglePixel_0122926_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="864" column="16" lean-forward="true" selection-start-line="864" selection-start-column="16" selection-end-line="864" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/scripts/libraries/framework_utils/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1397">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
