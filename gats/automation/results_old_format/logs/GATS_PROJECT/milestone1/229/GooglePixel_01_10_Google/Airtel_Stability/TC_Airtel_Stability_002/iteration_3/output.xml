@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.0 on linux)" generated="20210507 13:54:02.611" rpa="false">
+<suite id="s1" name="Robot Scripts" source="/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts">
+<suite id="s1-s1" name="Airtel Stability" source="/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts/Airtel_Stability.robot">
+<test id="s1-s1-t1" name="TC_Airtel_Stability_002">
+<kw name="Run Keywords" library="BuiltIn" type="setup">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Setup Log</arg>
+<arg>AND</arg>
+<arg>Start Device Log</arg>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+</arguments>
+<status status="FAIL" starttime="20210507 13:54:02.827" endtime="20210507 13:54:02.828"></status>
+</kw>
+<kw name="Run Keywords" library="BuiltIn" type="teardown">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Set Iteration Path</arg>
+<arg>${dict.iteration_path}</arg>
+<arg>AND</arg>
+<arg>Stop Device Log</arg>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+<arg>AND</arg>
+<arg>Remove Log Handler</arg>
+</arguments>
+<kw name="Set Iteration Path" library="res_common">
+<arguments>
+<arg>${dict.iteration_path}</arg>
+</arguments>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>NONE</arg>
+</arguments>
+<assign>
+<var>${prev_level}</var>
+</assign>
+<status status="PASS" starttime="20210507 13:54:02.830" endtime="20210507 13:54:02.830"></status>
+</kw>
+<kw name="Set Test Message" library="BuiltIn">
+<doc>Sets message for the current test case.</doc>
+<arguments>
+<arg>*HTML* &lt;br/&gt;&lt;b&gt;Result Path:&lt;/b&gt; &lt;a href=file://${iteration_path}&gt;${dict.testcase_name_and_iter_path}&lt;/a&gt;&lt;br/&gt;</arg>
+<arg>append=${true}</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:54:02.831" endtime="20210507 13:54:02.832"></status>
+</kw>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>${prev_level}</arg>
+</arguments>
+<msg timestamp="20210507 13:54:02.833" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210507 13:54:02.832" endtime="20210507 13:54:02.833"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:02.829" endtime="20210507 13:54:02.833"></status>
+</kw>
+<kw name="Stop device Log" library="res_common">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>"Stopping Modem Logs"</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:54:02.834" endtime="20210507 13:54:02.834"></status>
+</kw>
+<kw name="Device Logging" library="device_reports">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${TEST NAME}</arg>
+<arg>${log_type}</arg>
+<arg>STOP</arg>
+</arguments>
+<msg timestamp="20210507 13:54:02.835" level="INFO">Stopping Logcat</msg>
+<status status="PASS" starttime="20210507 13:54:02.835" endtime="20210507 13:54:02.841"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:02.833" endtime="20210507 13:54:02.841"></status>
+</kw>
+<kw name="Remove Log Handler" library="res_common">
+<kw name="Remove Script Log Handler" library="common_log">
+<doc>Removes all the logging handlers
+:return: None</doc>
+<msg timestamp="20210507 13:54:02.843" level="INFO">[&lt;RobotHandler (NOTSET)&gt;]</msg>
+<status status="PASS" starttime="20210507 13:54:02.843" endtime="20210507 13:54:02.843"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:02.842" endtime="20210507 13:54:02.843"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:02.828" endtime="20210507 13:54:02.843"></status>
+</kw>
+<doc>Validate Attach After APM</doc>
+<tags>
+<tag>TC_Airtel_Stability_002</tag>
+</tags>
+<timeout value="12 hours"></timeout>
+<status status="FAIL" starttime="20210507 13:54:02.816" endtime="20210507 13:54:02.844" critical="yes">*HTML* Setup failed:
+Execution terminated by signal &lt;br/&gt;&lt;b&gt;Result Path:&lt;/b&gt; &lt;a href=file:///home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_002/iteration_3&gt;TC_Airtel_Stability_002/iteration_3&lt;/a&gt;&lt;br/&gt;</status>
+</test>
+<kw name="Run Keyword" library="BuiltIn" type="teardown">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Fill Excel</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Fill Excel" library="res_common">
+<arguments>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"Creating Excel Sheet"</arg>
+</arguments>
+<msg timestamp="20210507 13:54:03.133" level="INFO">"Creating Excel Sheet"</msg>
+<status status="PASS" starttime="20210507 13:54:03.132" endtime="20210507 13:54:03.133"></status>
+</kw>
+<kw name="Create Excel" library="excel_sheet">
+<arguments>
+<arg>${log_type}</arg>
+</arguments>
+<msg timestamp="20210507 13:54:03.142" level="INFO">['/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_1/../', '/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_2/../']</msg>
+<status status="PASS" starttime="20210507 13:54:03.134" endtime="20210507 13:54:03.143"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:03.131" endtime="20210507 13:54:03.143"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:03.131" endtime="20210507 13:54:03.143"></status>
+</kw>
+<status status="FAIL" starttime="20210507 13:54:02.633" endtime="20210507 13:54:03.143"></status>
+</suite>
+<status status="FAIL" starttime="20210507 13:54:02.614" endtime="20210507 13:54:03.145"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">TC_Airtel_Stability_002</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Robot Scripts">Robot Scripts</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Airtel Stability">Robot Scripts.Airtel Stability</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

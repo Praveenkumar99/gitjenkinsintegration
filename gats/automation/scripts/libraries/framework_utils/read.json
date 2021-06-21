@@ -1,0 +1,44 @@
+{
+    "devices": [
+        {
+            "mileStoneName": "milestone1",
+            "deviceName": "GooglePixel_01",
+            "testRunId": 26,
+            "serialId": "FA6AX0302278",
+            "testCase": [
+                {
+                    "TC_Airtel_Stability_001" : 1
+
+
+                }
+            ],
+            "macId": "00:1B:44:11:3A:B7",
+            "testcase_config": {
+                "TC_Airtel_Stability_001": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "reboot_validate_attach",
+                    "reboot_duration" : 40
+                },
+
+                 "TC_Airtel_Stability_002": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "apm_validate_attach",
+                    "reboot_duration" : 3
+                },
+
+                "TC_Live_Stability_001": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "Volte Call MO"
+                },
+
+                "TC_Live_Stability_002" : {
+                    "test_bed_name": "stability",
+                    "test_case_name": "Volte Call MT"
+                }
+            }
+
+        }
+    ],
+    "automation_id": 229,
+    "projectName": "GATS_PROJECT"
+}

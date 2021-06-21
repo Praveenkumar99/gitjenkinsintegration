@@ -1,0 +1,8 @@
+2021-05-07 13:46:51.595 IST: [log_utils] [setup_logging] [79] [INFO] Logging has been setup
+2021-05-07 13:46:51.596 IST: [device_reports] [fetch_logcat] [189] [INFO] Initiating Logcat
+2021-05-07 13:46:51.601 IST: [Stability_Live_Reboot_TC01] [execute] [21] [INFO] Rebooting the device
+2021-05-07 13:46:56.603 IST: [cellular_automation_helpers.common_helper_functions.adb_command_functions] [rebootDevice] [30] [INFO] Devices Reboot started successfully
+2021-05-07 13:47:36.603 IST: [cellular_automation_helpers.common_helper_functions.adb_command_functions] [imsRegistrationValidator] [105] [INFO] Checking the ims registration
+2021-05-07 13:48:11.223 IST: [cellular_automation_helpers.common_helper_functions.adb_command_functions] [imsRegistrationValidator] [105] [INFO] Checking the ims registration
+2021-05-07 13:48:12.659 IST: [device_reports] [fetch_logcat] [195] [INFO] Stopping Logcat
+2021-05-07 13:48:12.731 IST: [common_log] [remove_script_log_handler] [73] [INFO] [<RobotHandler (NOTSET)>, <StreamHandler (NOTSET)>, <FileHandler /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_2/TC_Airtel_Stability_001_20210507-134651 (DEBUG)>]

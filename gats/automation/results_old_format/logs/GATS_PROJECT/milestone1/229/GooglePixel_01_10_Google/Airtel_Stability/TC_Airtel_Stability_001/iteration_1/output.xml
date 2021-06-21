@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.0 on linux)" generated="20210507 13:45:22.660" rpa="false">
+<suite id="s1" name="Robot Scripts" source="/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts">
+<suite id="s1-s1" name="Airtel Stability" source="/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts/Airtel_Stability.robot">
+<test id="s1-s1-t1" name="TC_Airtel_Stability_001">
+<kw name="Run Keywords" library="BuiltIn" type="setup">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Setup Log</arg>
+<arg>AND</arg>
+<arg>Start Device Log</arg>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Setup Log" library="res_common">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Inside setup log keyword</arg>
+</arguments>
+<msg timestamp="20210507 13:45:23.188" level="INFO">Inside setup log keyword</msg>
+<status status="PASS" starttime="20210507 13:45:23.188" endtime="20210507 13:45:23.188"></status>
+</kw>
+<kw name="Setup Logging" library="common_log">
+<doc>Generates script level logs
+:param project: Project name
+:param milestone: Milestone name
+:param session: Session name
+:param device: Device name
+:param suite: Suite name
+:param auto_id: Automation id(test case id)
+:return: h.vinay@globaledgesoft.com</doc>
+<arguments>
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+<arg>${arg3}</arg>
+<arg>${arg4}</arg>
+<arg>${arg5}</arg>
+<arg>${arg6}</arg>
+<arg>${arg7}</arg>
+</arguments>
+<msg timestamp="20210507 13:45:23.189" level="INFO">executing setup logging</msg>
+<msg timestamp="20210507 13:45:23.189" level="INFO">Filename:TC_Airtel_Stability_001</msg>
+<msg timestamp="20210507 13:45:23.189" level="INFO">Logging has been setup</msg>
+<msg timestamp="20210507 13:45:23.190" level="INFO">Inside common log: GATS_PROJECT milestone1 229 GooglePixel_01_10_Google iteration_1 Airtel_Stability TC_Airtel_Stability_001
+Inside log_utils_setup GATS_PROJECT milestone1 229 GooglePixel_01_10_Google Airtel_Stability TC_Airtel_Stability_001 iteration_1
+session_dir:GATS_PROJECT/milestone1/229
+device:GooglePixel_01_10_Google
+suite:Airtel_Stability
+file_name:TC_Airtel_Stability_001
+iteration:iteration_1
+log_directory:/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_1
+[log_utils] setup_logging 79 INFO Logging has been setup</msg>
+<status status="PASS" starttime="20210507 13:45:23.189" endtime="20210507 13:45:23.190"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:45:23.187" endtime="20210507 13:45:23.190"></status>
+</kw>
+<kw name="Start device Log" library="res_common">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>"Starting Modem Logs"</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:45:23.190" endtime="20210507 13:45:23.191"></status>
+</kw>
+<kw name="Device Logging" library="device_reports">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${TEST NAME}</arg>
+<arg>${log_type}</arg>
+<arg>START</arg>
+</arguments>
+<msg timestamp="20210507 13:45:23.191" level="INFO">Initiating Logcat</msg>
+<status status="PASS" starttime="20210507 13:45:23.191" endtime="20210507 13:45:23.193"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:45:23.190" endtime="20210507 13:45:23.193"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:45:23.187" endtime="20210507 13:45:23.194"></status>
+</kw>
+<kw name="Reboot Validate Attach" library="res_common">
+<arguments>
+<arg>TC_Airtel_Stability_001</arg>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>"Checking Attach after Reboot"</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:45:23.195" endtime="20210507 13:45:23.195"></status>
+</kw>
+<kw name="Reboot Attach Validation" library="Stability_Live_Reboot_TC01">
+<arguments>
+<arg>${tst}</arg>
+<arg>${yamlData}</arg>
+</arguments>
+<assign>
+<var>${adb_res}</var>
+<var>${msg}</var>
+</assign>
+<msg timestamp="20210507 13:45:23.196" level="INFO">Rebooting the device</msg>
+<msg timestamp="20210507 13:45:28.640" level="INFO">Devices Reboot started successfully</msg>
+<msg timestamp="20210507 13:46:08.640" level="INFO">Checking the ims registration</msg>
+<msg timestamp="20210507 13:46:50.814" level="INFO">Checking the ims registration</msg>
+<msg timestamp="20210507 13:46:51.133" level="INFO">return code --- &gt;1
+error --- &gt;None</msg>
+<msg timestamp="20210507 13:46:51.133" level="INFO">${adb_res} = False</msg>
+<msg timestamp="20210507 13:46:51.133" level="INFO">${msg} = Ims registration failed</msg>
+<status status="PASS" starttime="20210507 13:45:23.195" endtime="20210507 13:46:51.134"></status>
+</kw>
+<kw name="Fetch Result" library="device_reports">
+<arguments>
+<arg>${TEST NAME}</arg>
+<arg>${adb_res}</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:46:51.134" endtime="20210507 13:46:51.135"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${adb_res} == True</arg>
+<arg>Log To Console</arg>
+<arg>${msg}</arg>
+<arg>ELSE</arg>
+<arg>device_logging</arg>
+<arg>${yamlData}</arg>
+<arg>${TEST NAME}</arg>
+<arg>${log_type}</arg>
+<arg>RESTART</arg>
+</arguments>
+<kw name="Device Logging" library="device_reports">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${TEST NAME}</arg>
+<arg>${log_type}</arg>
+<arg>RESTART</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:46:51.137" endtime="20210507 13:46:51.138"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.135" endtime="20210507 13:46:51.138"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${adb_res}</arg>
+<arg>msg=${msg}</arg>
+</arguments>
+<msg timestamp="20210507 13:46:51.139" level="FAIL">Ims registration failed</msg>
+<status status="FAIL" starttime="20210507 13:46:51.139" endtime="20210507 13:46:51.140"></status>
+</kw>
+<status status="FAIL" starttime="20210507 13:45:23.194" endtime="20210507 13:46:51.140"></status>
+</kw>
+<kw name="Run Keywords" library="BuiltIn" type="teardown">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Set Iteration Path</arg>
+<arg>${dict.iteration_path}</arg>
+<arg>AND</arg>
+<arg>Stop Device Log</arg>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+<arg>AND</arg>
+<arg>Remove Log Handler</arg>
+</arguments>
+<kw name="Set Iteration Path" library="res_common">
+<arguments>
+<arg>${dict.iteration_path}</arg>
+</arguments>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>NONE</arg>
+</arguments>
+<assign>
+<var>${prev_level}</var>
+</assign>
+<status status="PASS" starttime="20210507 13:46:51.141" endtime="20210507 13:46:51.141"></status>
+</kw>
+<kw name="Set Test Message" library="BuiltIn">
+<doc>Sets message for the current test case.</doc>
+<arguments>
+<arg>*HTML* &lt;br/&gt;&lt;b&gt;Result Path:&lt;/b&gt; &lt;a href=file://${iteration_path}&gt;${dict.testcase_name_and_iter_path}&lt;/a&gt;&lt;br/&gt;</arg>
+<arg>append=${true}</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:46:51.142" endtime="20210507 13:46:51.142"></status>
+</kw>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>${prev_level}</arg>
+</arguments>
+<msg timestamp="20210507 13:46:51.142" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210507 13:46:51.142" endtime="20210507 13:46:51.142"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.140" endtime="20210507 13:46:51.143"></status>
+</kw>
+<kw name="Stop device Log" library="res_common">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>"Stopping Modem Logs"</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:46:51.143" endtime="20210507 13:46:51.143"></status>
+</kw>
+<kw name="Device Logging" library="device_reports">
+<arguments>
+<arg>${yamlData}</arg>
+<arg>${TEST NAME}</arg>
+<arg>${log_type}</arg>
+<arg>STOP</arg>
+</arguments>
+<msg timestamp="20210507 13:46:51.144" level="INFO">Stopping Logcat</msg>
+<status status="PASS" starttime="20210507 13:46:51.144" endtime="20210507 13:46:51.232"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.143" endtime="20210507 13:46:51.233"></status>
+</kw>
+<kw name="Remove Log Handler" library="res_common">
+<kw name="Remove Script Log Handler" library="common_log">
+<doc>Removes all the logging handlers
+:return: None</doc>
+<msg timestamp="20210507 13:46:51.234" level="INFO">[&lt;RobotHandler (NOTSET)&gt;, &lt;StreamHandler (NOTSET)&gt;, &lt;FileHandler /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_1/TC_Airtel_Stability_001_20210507-134523 (DEBUG)&gt;]</msg>
+<status status="PASS" starttime="20210507 13:46:51.233" endtime="20210507 13:46:51.234"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.233" endtime="20210507 13:46:51.234"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.140" endtime="20210507 13:46:51.234"></status>
+</kw>
+<doc>Validate Attach After Reboot</doc>
+<tags>
+<tag>TC_Airtel_Stability_001</tag>
+</tags>
+<timeout value="12 hours"></timeout>
+<status status="FAIL" starttime="20210507 13:45:23.181" endtime="20210507 13:46:51.234" critical="yes">*HTML* Ims registration failed &lt;br/&gt;&lt;b&gt;Result Path:&lt;/b&gt; &lt;a href=file:///home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_1&gt;TC_Airtel_Stability_001/iteration_1&lt;/a&gt;&lt;br/&gt;</status>
+</test>
+<kw name="Run Keyword" library="BuiltIn" type="teardown">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Fill Excel</arg>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Fill Excel" library="res_common">
+<arguments>
+<arg>${log_type}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"Creating Excel Sheet"</arg>
+</arguments>
+<msg timestamp="20210507 13:46:51.399" level="INFO">"Creating Excel Sheet"</msg>
+<status status="PASS" starttime="20210507 13:46:51.398" endtime="20210507 13:46:51.399"></status>
+</kw>
+<kw name="Create Excel" library="excel_sheet">
+<arguments>
+<arg>${log_type}</arg>
+</arguments>
+<msg timestamp="20210507 13:46:51.404" level="INFO">['/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Airtel_Stability/TC_Airtel_Stability_001/iteration_1/../']</msg>
+<status status="PASS" starttime="20210507 13:46:51.399" endtime="20210507 13:46:51.404"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.398" endtime="20210507 13:46:51.404"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:46:51.398" endtime="20210507 13:46:51.404"></status>
+</kw>
+<status status="FAIL" starttime="20210507 13:45:22.683" endtime="20210507 13:46:51.404"></status>
+</suite>
+<status status="FAIL" starttime="20210507 13:45:22.664" endtime="20210507 13:46:51.406"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">TC_Airtel_Stability_001</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Robot Scripts">Robot Scripts</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Airtel Stability">Robot Scripts.Airtel Stability</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

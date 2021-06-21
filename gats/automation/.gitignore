@@ -1,0 +1,14 @@
+# ignore the pycache
+automation/scripts/libraries/framework_utils/__pycache__/
+automation/scripts/libraries/automation_helpers/__pycache__/
+# ignore pycharm stuff
+.idea/
+# ignore results
+automation/results/
+# ignore .txt and .db
+automation/scripts/libraries/framework_utils/*.txt
+automation/scripts/libraries/framework_utils/*.db
+../.idea/
+# .json files
+# automation/scripts/libraries/framework_utils/*.json
+automation/scripts/libraries/framework_utils/*.csv

@@ -1,0 +1,185 @@
+{
+    "devices": [
+        {
+            "mileStoneName": "milestone1",
+            "deviceName": "GooglePixel_01",
+            "testRunId": 26,
+            "serialId": "FA6AX0302278",
+            "testCase": [
+                {
+                    "TC_Airtel_Stability_001" : 1
+                }
+            ],
+            "macId": "00:1B:44:11:3A:B7",
+            "testcase_config": {
+                "TC_Airtel_Stability_001": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "reboot_validate_attach",
+                    "reboot_duration" : 40
+                },
+
+                "TC_Airtel_Stability_002": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "apm_validate_attach",
+                    "reboot_duration" : 3
+                },
+
+                "TC_Airtel_Stability_003": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "volte_short_call",
+                    "tempDevicesId": [
+                        "935AY06TSW"
+                    ],
+                    "tempDevicesName": [
+                        "GooglePixel_02"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8147355019"
+                },
+
+                "TC_Airtel_Stability_004": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "volte_call_connect_disconnect",
+                    "tempDevicesId": [
+                        "935AY06TSW"
+                    ],
+                    "tempDevicesName": [
+                        "GooglePixel_02"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8147355019"
+                },
+
+                "TC_Airtel_Stability_005": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "volte_call_hold",
+                    "tempDevicesId": [
+                        "935AY06TSW"
+                    ],
+                    "tempDevicesName": [
+                        "GooglePixel_02"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8147355019"
+                },
+                
+                "TC_Airtel_Stability_014": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "VT_call",
+                    "tempDevicesId": [
+                        "RZ8NC0B8BHX", "RZ8NC0B8BHX"
+                    ],
+                    "tempDevicesName": [
+                        "OnePlus_01", "GooglePixel_01"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8056761210"
+                },
+                "TC_Airtel_Stability_015": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "VT_call",
+                    "tempDevicesId": [
+                        "RZ8NC0B8BHX", "RZ8NC0B8BHX"
+                    ],
+                    "tempDevicesName": [
+                        "OnePlus_01", "GooglePixel_01"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8056761210"
+                },
+                "TC_Airtel_Stability_016": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "vt_call_hold",
+                    "tempDevicesId": [
+                        "RZ8NC0B8BHX", "RZ8NC0B8BHX"
+                    ],
+                    "tempDevicesName": [
+                        "OnePlus_01", "GooglePixel_01"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8056761210"
+                },
+                "TC_Airtel_Stability_017": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "Airtel_Stability_Volte_017",
+                    "tempDevicesId": [
+                        "bcac40d3cbf6",
+                        "2d0c8aa1"
+                    ],
+                    "tempDevicesName": [
+                        "MIA3",
+                        "OnePlus_01"
+                    ],
+                    "Call_duration": 3,
+                    "callB_no": "8147355019",
+                    "callA_no": "8147355020",
+                    "callC_no": "9606030436"
+                },
+                "TC_Airtel_Stability_006": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "volte_call_swap",
+                    "tempDevicesId": [
+                        "RZ8NC0B8BHX", "RZ8NC0B8BHX"
+                    ],
+                    "tempDevicesName": [
+                        "OnePlus_01", "GooglePixel_01"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8056761210"
+                },
+
+                "TC_Airtel_Stability_027": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "volte_long_call",
+                    "tempDevicesId": [
+                        "935AY06TSW"
+                    ],
+                    "tempDevicesName": [
+                        "GooglePixel_02"
+                    ],
+                    "callA_no": "8147355018",
+                    "callB_no": "8147355019"
+                },
+
+                "TC_Airtel_Stability_029": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "youtube_streaming",
+                    "HTTPS_LINK" : "https://www.youtube.com/watch?v=Bi3MHIQVgdo"
+                    
+                },
+
+                "TC_Airtel_Stability_034": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "capture_picture"
+                    
+                },
+                "TC_Airtel_Stability_035": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "camera_switch_mode"
+                    
+                }, 
+                "TC_Airtel_Stability_036": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "record_video"
+                    
+                },           
+                "TC_Airtel_Stability_037": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "play_video"
+                    
+                },           
+                "TC_Airtel_Stability_038": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "play_audio"
+                },
+                "TC_Live_Stability_001": {
+                    "test_bed_name": "stability",
+                    "test_case_name": "Volte Call MO"
+                }
+            }
+            
+        }
+    ],
+    "automation_id": 229,
+    "projectName": "GATS_PROJECT"
+}

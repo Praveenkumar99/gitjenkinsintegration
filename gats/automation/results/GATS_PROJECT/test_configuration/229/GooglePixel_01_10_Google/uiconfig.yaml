@@ -1,0 +1,23 @@
+yamlData:
+  deviceName: GooglePixel_01
+  macId: 00:1B:44:11:3A:B7
+  mileStoneName: milestone1
+  serialId: FA6AX0302278
+  testCase:
+  - TC_Airtel_Stability_001: 1
+  testRunId: 26
+  testcase_config:
+    TC_Airtel_Stability_001:
+      reboot_duration: 40
+      test_bed_name: stability
+      test_case_name: reboot_validate_attach
+    TC_Airtel_Stability_002:
+      reboot_duration: 3
+      test_bed_name: stability
+      test_case_name: apm_validate_attach
+    TC_Live_Stability_001:
+      test_bed_name: stability
+      test_case_name: Volte Call MO
+    TC_Live_Stability_002:
+      test_bed_name: stability
+      test_case_name: Volte Call MT

@@ -1,0 +1,869 @@
+robot_log_path:/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/robot_results/229/GooglePixel_01_10_Google/26
+debug_file:GooglePixel_01_10_Google229_runerr.txt
+ouput_file:GooglePixel_01_10_Google229_runout.txt
+test_case:TC_Airtel_Stability_001
+======================>>>>>TEST SUITE NAME: Airtel_Stability
+create_path:/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePixel_01_10_Google/229
+"Starting Modem Logs"
+"Checking Attach after Reboot"
+"Stopping Modem Logs"
+Time at the start of end_test method:2021-05-11 20:16:35.767451
+1620744313010
+1620744402670
+Failed to upload files.Got Error:list index out of range
+test_data_json:{'macId': '00:1B:44:11:3A:B7', 'testRunId': 26, 'result': 'FAILED', 'automationId': 229, 'failureReason': '*HTML* Ims registration failed <br/><b>Result Path:</b> <a href=file:///home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePix..', 'startTime': '1620744313010', 'endTime': '1620744402670', 'testcaseCustomId': 'TC_Airtel_Stability_001', 'ftpLink': 'None'}
+Inside store_to_database
+create_table:CREATE TABLE IF NOT EXISTS  {0}( SLNO     INTEGER UNIQUE PRIMARY KEY AUTOINCREMENT, {1}   VARCHAR(10), {2}   VARCHAR(10)  NOT NULL, {3}   VARCHAR(10)    NOT NULL, {4}   VARCHAR(10) NOT NULL, {5}   VARCHAR(512) NOT NULL, {6}   VARCHAR(10) NOT NULL, {7}   VARCHAR(10) NOT NULL, {8}   VARCHAR(10) NOT NULL, {9}   VARCHAR(40) NOT NULL)
+After creating table
+table_name:test_res_table
+create table sql query: CREATE TABLE IF NOT EXISTS  test_res_table( SLNO     INTEGER UNIQUE PRIMARY KEY AUTOINCREMENT, macId   VARCHAR(10), testRunId   VARCHAR(10)  NOT NULL, result   VARCHAR(10)    NOT NULL, automationId   VARCHAR(10) NOT NULL, failureReason   VARCHAR(512) NOT NULL, startTime   VARCHAR(10) NOT NULL, endTime   VARCHAR(10) NOT NULL, testcaseCustomId   VARCHAR(10) NOT NULL, ftpLink   VARCHAR(40) NOT NULL)
+TEST CREATE TABLE: <sqlite3.Cursor object at 0x7f14da0ea0a0>
+------------------------
+Get Test Result: {'macId': '00:1B:44:11:3A:B7', 'testRunId': 26, 'result': 'FAILED', 'automationId': 229, 'failureReason': '*HTML* Ims registration failed <br/><b>Result Path:</b> <a href=file:///home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePix..', 'startTime': '1620744313010', 'endTime': '1620744402670', 'testcaseCustomId': 'TC_Airtel_Stability_001', 'ftpLink': 'None'}
+Before inserting in to test_res_table
+After inserting into the database
+Done inserting into table.!!!!
+stat:Done
+Before calling publish data
+==============================================================================
+Robot Scripts                                                                 
+==============================================================================
+Robot Scripts.Airtel Stability                                                
+==============================================================================
+TC_Airtel_Stability_001 :: Validate Attach After Reboot               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_002 :: Validate Attach After APM                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_003 :: Validate Attach After APM                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_004 :: Performing Volte Connect and Disconnect    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_005 :: Performing Volte Connect and Disconnect    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_006 :: Performing Swapping of calls               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_007 :: Performing conffernences call              | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_008 :: Performing upgrade and downgrade on cal... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_009 :: Performing upgrade and downgrade on cal... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_010 :: Performing upgrade and downgrade on cal... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_011 :: Performing upgrade and downgrade on cal... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_012 :: Performing upgrade and downgrade on cal... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_013 :: Performing upgrade and downgrade on cal... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_014 :: Performing VT call                         | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_015 :: Performing VT Connect and Disconnect       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_016 :: Performing VT Call Hold Unhold             | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_017 :: Performing Swapping of VT calls            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_018 :: Performing vt conf call                    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_019 :: Performing VT updown                       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_020 :: Performing VT updown                       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_021 :: Performing VT updown                       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_022 :: Performing VT updown                       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_023 :: Sending SmS while in VT call               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_024 :: Sending SmS while in VT call               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_025 :: Performing volte Long Conf call            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_026 :: Performing vt long conf call               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_027 :: Performing volte long call                 | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_028 :: Performing VT long call                    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_029 :: Streaming YouTube Video                    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_030 :: Checking Wifi Stability                    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_031 :: Voice Over Wifi                            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_032 :: Vt Over Wifi                               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_033 :: Browsing                                   | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_034 :: Capturing Picture                          | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_035 :: Switching Camera Mode                      | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_036 :: Recording Video                            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_037 :: Playing Video File                         | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_038 :: Playing Audio File                         | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+TC_Airtel_Stability_040 :: Playing DOU                                | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+
+2) Variable '${yamlData}' not found.
+------------------------------------------------------------------------------
+Robot Scripts.Airtel Stability                                        | FAIL |
+39 critical tests, 0 passed, 39 failed
+39 tests total, 0 passed, 39 failed
+==============================================================================
+Robot Scripts.Live Stability                                                  
+==============================================================================
+TC_Live_Stability_001 :: Performing Volte Call1                       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_002 :: Performing Volte Call2                       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_003 :: Performing Volte Hold Call1                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_004 :: Performing Volte Hold Call2                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_005 :: Performing Volte Swap Call1                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_006 :: Performing Volte Swap Call2                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_007 :: Performing Volte Conf Call1                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_008 :: Performing Volte Conf Call2                  | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_009 :: Performing Volte Long Call                   | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_010 :: Performing Volte Call Rejection At MT Side   | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_011 :: Performing Long Volte Conf Call1             | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_012 :: Performing Volte Call Upgrade from MT Dow... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_013 :: Performing volte call and sending sms at ... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_014 :: Performing volte call and sending sms at ... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_015 :: Performing volte call and receive vt call    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_016 :: Performing volte call make vt call           | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_017 :: Receive vt call at mo                        | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_018 :: Receive vt call at mo                        | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_019 :: Performing VT call put call on hold at Mo... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_020 :: Performing VT call put call on hold at MT... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_021 :: Performing VT Call Swap call 1               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_022 :: Performing VT Call Swap call 2               | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_023 :: Performing VT Call Conf 1                    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_024 :: Performing VT Call Conf 2                    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_025 :: Performing vt call and up/down grade from mo | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_026 :: Performing vt call and up/down grade from mt | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_027 :: Performing vt call up and down grade         | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_028 :: Performing vt call up and down grade         | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_029 :: Performing VT Call Send SMS AT MO Side       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_030 :: Performing VT Call Send SMS AT MT Side       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_031 :: Performing VT call and receive Volte call    | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_032 :: Performing VT call and make Volte call       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_033 :: Performing long volte Conf call1             | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_034 :: Performing long volte Conf call2             | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_035 :: Performing long VT Conf call2                | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_036 :: Performing long VT Conf call2                | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_037 :: Performing Volte Long Call                   | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_038 :: Performing VT Long Call                      | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_039 :: Streaming Youtube videos Continuously        | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_041 :: Back to Back IMS registration                | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_042 :: Short Voice Call Reject Stability            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_043 :: Short Video Call Reject Stability            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_046 :: Voice over Wi-Fi Call Stability              | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_047 :: Video over Wi-Fi Call Stability              | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_048 :: Launch Browser. The browser caches need t... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_049 :: Capture the Image and Delete the Image       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_050 :: Switching the Camera and Video mode          | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_051 :: Record Video and Delete the Video            | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_052 :: Playing 4 Videos from Internal storage       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_053 :: Playing 4 Audios from Internal storage       | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_054 :: Make Wifi On and OFF                         | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_055 :: Play Games for 1 Hr, during play receive ... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_056 :: During a long VoLTE call(min 1 Hr) send 1... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+TC_Live_Stability_057 :: Start Volte call for minimum 30 minutes. ... | FAIL |
+Setup failed:
+Resolving argument default values failed: Resolving variable '${dict.project}' failed: Variable '${dict}' not found.
+
+Also teardown failed:
+Resolving variable '${dict.robot_log_path}' failed: Variable '${dict}' not found.
+------------------------------------------------------------------------------
+Robot Scripts.Live Stability                                          | FAIL |
+54 critical tests, 0 passed, 54 failed
+54 tests total, 0 passed, 54 failed
+==============================================================================
+Robot Scripts                                                         | FAIL |
+93 critical tests, 0 passed, 93 failed
+93 tests total, 0 passed, 93 failed
+==============================================================================
+Output:  /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/libraries/framework_utils/output.xml
+Log:     /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/libraries/framework_utils/log.html
+Report:  /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/libraries/framework_utils/report.html
+path:/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT
+output_path:/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Merged_Output/229
+Show the effect of garbage collection
+Collecting 0 ...
+Unreachable objects:  13369
+[]
+Remaining Garbage:  None
+
+Collecting 1 ...
+Unreachable objects:  0
+[]
+Remaining Garbage:  None
+

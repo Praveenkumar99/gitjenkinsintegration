@@ -1,0 +1,7 @@
+{
+    "devices": [
+                {"mileStoneName": "milestone1",
+                     "deviceName": "Device 2",
+                      "testRunId": 26,
+                       "serialId": "emulator-5554",
+                        "testCase": ["TC_Airplane_001"], "macId": "00:1B:44:11:3A:B7"}], "automation_id": 36, "projectName": "AMDEF1"}

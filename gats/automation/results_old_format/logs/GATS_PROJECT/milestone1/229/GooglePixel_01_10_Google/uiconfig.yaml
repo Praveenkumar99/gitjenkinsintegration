@@ -1,0 +1,134 @@
+yamlData:
+  deviceName: GooglePixel_01
+  macId: 00:1B:44:11:3A:B7
+  mileStoneName: milestone1
+  serialId: FA6AX0302278
+  testCase:
+  - TC_Airtel_Stability_001: 3
+    TC_Airtel_Stability_002: 3
+    TC_Live_Stability_001: 3
+  testRunId: 26
+  testcase_config:
+    TC_Airtel_Stability_001:
+      reboot_duration: 40
+      test_bed_name: stability
+      test_case_name: reboot_validate_attach
+    TC_Airtel_Stability_002:
+      reboot_duration: 3
+      test_bed_name: stability
+      test_case_name: apm_validate_attach
+    TC_Airtel_Stability_003:
+      callA_no: '8147355018'
+      callB_no: '8147355019'
+      tempDevicesId:
+      - 935AY06TSW
+      tempDevicesName:
+      - GooglePixel_02
+      test_bed_name: stability
+      test_case_name: volte_short_call
+    TC_Airtel_Stability_004:
+      callA_no: '8147355018'
+      callB_no: '8147355019'
+      tempDevicesId:
+      - 935AY06TSW
+      tempDevicesName:
+      - GooglePixel_02
+      test_bed_name: stability
+      test_case_name: volte_call_connect_disconnect
+    TC_Airtel_Stability_005:
+      callA_no: '8147355018'
+      callB_no: '8147355019'
+      tempDevicesId:
+      - 935AY06TSW
+      tempDevicesName:
+      - GooglePixel_02
+      test_bed_name: stability
+      test_case_name: volte_call_hold
+    TC_Airtel_Stability_006:
+      callA_no: '8147355018'
+      callB_no: '8056761210'
+      tempDevicesId:
+      - RZ8NC0B8BHX
+      - RZ8NC0B8BHX
+      tempDevicesName:
+      - OnePlus_01
+      - GooglePixel_01
+      test_bed_name: stability
+      test_case_name: volte_call_swap
+    TC_Airtel_Stability_014:
+      callA_no: '8147355018'
+      callB_no: '8056761210'
+      tempDevicesId:
+      - RZ8NC0B8BHX
+      - RZ8NC0B8BHX
+      tempDevicesName:
+      - OnePlus_01
+      - GooglePixel_01
+      test_bed_name: stability
+      test_case_name: VT_call
+    TC_Airtel_Stability_015:
+      callA_no: '8147355018'
+      callB_no: '8056761210'
+      tempDevicesId:
+      - RZ8NC0B8BHX
+      - RZ8NC0B8BHX
+      tempDevicesName:
+      - OnePlus_01
+      - GooglePixel_01
+      test_bed_name: stability
+      test_case_name: VT_call
+    TC_Airtel_Stability_016:
+      callA_no: '8147355018'
+      callB_no: '8056761210'
+      tempDevicesId:
+      - RZ8NC0B8BHX
+      - RZ8NC0B8BHX
+      tempDevicesName:
+      - OnePlus_01
+      - GooglePixel_01
+      test_bed_name: stability
+      test_case_name: vt_call_hold
+    TC_Airtel_Stability_017:
+      Call_duration: 3
+      callA_no: '8147355020'
+      callB_no: '8147355019'
+      callC_no: '9606030436'
+      tempDevicesId:
+      - bcac40d3cbf6
+      - 2d0c8aa1
+      tempDevicesName:
+      - MIA3
+      - OnePlus_01
+      test_bed_name: stability
+      test_case_name: Airtel_Stability_Volte_017
+    TC_Airtel_Stability_027:
+      callA_no: '8147355018'
+      callB_no: '8147355019'
+      tempDevicesId:
+      - 935AY06TSW
+      tempDevicesName:
+      - GooglePixel_02
+      test_bed_name: stability
+      test_case_name: volte_long_call
+    TC_Airtel_Stability_029:
+      HTTPS_LINK: https://www.youtube.com/watch?v=Bi3MHIQVgdo
+      test_bed_name: stability
+      test_case_name: youtube_streaming
+    TC_Airtel_Stability_034:
+      test_bed_name: stability
+      test_case_name: capture_picture
+    TC_Airtel_Stability_035:
+      test_bed_name: stability
+      test_case_name: camera_switch_mode
+    TC_Airtel_Stability_036:
+      test_bed_name: stability
+      test_case_name: record_video
+    TC_Airtel_Stability_037:
+      test_bed_name: stability
+      test_case_name: play_video
+    TC_Airtel_Stability_038:
+      test_bed_name: stability
+      test_case_name: play_audio
+    TC_Live_Stability_001:
+      test_bed_name: stability
+      test_case_name: Volte Call MO

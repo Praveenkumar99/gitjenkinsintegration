@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.0 on linux)" generated="20210507 13:54:03.955" rpa="false">
+<suite id="s1" name="Robot Scripts" source="/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts">
+<suite id="s1-s1" name="Live Stability" source="/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts/Live_Stability.robot">
+<test id="s1-s1-t1" name="TC_Live_Stability_001">
+<kw name="Run Keywords" library="BuiltIn" type="setup">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Setup Log</arg>
+</arguments>
+<status status="FAIL" starttime="20210507 13:54:04.143" endtime="20210507 13:54:04.144"></status>
+</kw>
+<kw name="Run Keywords" library="BuiltIn" type="teardown">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Set Iteration Path</arg>
+<arg>${dict.iteration_path}</arg>
+<arg>AND</arg>
+<arg>Remove Log Handler</arg>
+</arguments>
+<kw name="Set Iteration Path" library="res_common">
+<arguments>
+<arg>${dict.iteration_path}</arg>
+</arguments>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>NONE</arg>
+</arguments>
+<assign>
+<var>${prev_level}</var>
+</assign>
+<status status="PASS" starttime="20210507 13:54:04.145" endtime="20210507 13:54:04.146"></status>
+</kw>
+<kw name="Set Test Message" library="BuiltIn">
+<doc>Sets message for the current test case.</doc>
+<arguments>
+<arg>*HTML* &lt;br/&gt;&lt;b&gt;Result Path:&lt;/b&gt; &lt;a href=file://${iteration_path}&gt;${dict.testcase_name_and_iter_path}&lt;/a&gt;&lt;br/&gt;</arg>
+<arg>append=${true}</arg>
+</arguments>
+<status status="PASS" starttime="20210507 13:54:04.147" endtime="20210507 13:54:04.148"></status>
+</kw>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>${prev_level}</arg>
+</arguments>
+<msg timestamp="20210507 13:54:04.149" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210507 13:54:04.148" endtime="20210507 13:54:04.149"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:04.144" endtime="20210507 13:54:04.149"></status>
+</kw>
+<kw name="Remove Log Handler" library="res_common">
+<kw name="Remove Script Log Handler" library="common_log">
+<doc>Removes all the logging handlers
+:return: None</doc>
+<msg timestamp="20210507 13:54:04.150" level="INFO">[&lt;RobotHandler (NOTSET)&gt;]</msg>
+<status status="PASS" starttime="20210507 13:54:04.150" endtime="20210507 13:54:04.150"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:04.149" endtime="20210507 13:54:04.150"></status>
+</kw>
+<status status="PASS" starttime="20210507 13:54:04.144" endtime="20210507 13:54:04.150"></status>
+</kw>
+<doc>Performing Volte Call1</doc>
+<tags>
+<tag>TC_Live_Stability_001</tag>
+</tags>
+<timeout value="1 hour 5 minutes"></timeout>
+<status status="FAIL" starttime="20210507 13:54:04.136" endtime="20210507 13:54:04.150" critical="yes">*HTML* Setup failed:
+Execution terminated by signal &lt;br/&gt;&lt;b&gt;Result Path:&lt;/b&gt; &lt;a href=file:///home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/logs/GATS_PROJECT/milestone1/229/GooglePixel_01_10_Google/Live_Stability/TC_Live_Stability_001/iteration_2&gt;TC_Live_Stability_001/iteration_2&lt;/a&gt;&lt;br/&gt;</status>
+</test>
+<status status="FAIL" starttime="20210507 13:54:03.978" endtime="20210507 13:54:04.321"></status>
+</suite>
+<status status="FAIL" starttime="20210507 13:54:03.960" endtime="20210507 13:54:04.321"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">TC_Live_Stability_001</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Robot Scripts">Robot Scripts</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Live Stability">Robot Scripts.Live Stability</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

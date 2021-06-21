@@ -1,0 +1,69 @@
+PASSWORD:
+  SYS_PASSWD  : "p@ssw0rd,1"
+  SYS_FLAG : "True"
+
+
+DATABASE:
+  DATABASE_NAME  : "device_Status.db"
+  TABLE_NAME : "jason_dev_data"
+  TEST_TABLE_NAME : "test_res_table"
+
+DEVICE_STAT_COL:
+  COL1 : "macId"
+  COL2: "ip"
+  COL3: "active"
+  COL4: "message"
+  COL20: "testRunId"
+  COL30:  "result"
+  COL40: "automationId"
+  COL50: "failureReason"
+  COL60: "startTime"
+  COL70: "endTime"
+  COL80: "testcaseCustomId"
+  COL90: "ftpLink"
+
+
+MQTT_BROKER:
+  IP : "172.16.9.110"
+  PORT : 1883
+
+TOPICS:
+  DEV_PUB_TOPIC: "gats/setstatus"
+  TEST_PUB_TOPIC: "gats/testResult"
+  DEV_SUB_TOPIC: "gats/getstatus"
+  TEST_SUB_TOPIC: "gats/testRun"
+  STOP_PUB_TOPIC: "gats/canceltestrunstatus"
+  STOP_SUB_TOPIC: "gats/canceltestrun"
+
+
+QUERY:
+  CREATE_TABLE : "CREATE TABLE IF NOT EXISTS  {0}(
+                  {1}      VARCHAR(20),
+                  {2}   VARCHAR(20)  NOT NULL,
+                  {3}   VARCHAR(20)    NOT NULL,
+                  {4}   VARCHAR(20))"
+
+
+  CREATE_TEST_TABLE : "CREATE TABLE IF NOT EXISTS  {0}(
+                  SLNO     INTEGER UNIQUE PRIMARY KEY AUTOINCREMENT,
+                  {1}   VARCHAR(10),
+                  {2}   VARCHAR(10)  NOT NULL,
+                  {3}   VARCHAR(10)    NOT NULL,
+                  {4}   VARCHAR(10) NOT NULL,
+                  {5}   VARCHAR(512) NOT NULL,
+                  {6}   VARCHAR(10) NOT NULL,
+                  {7}   VARCHAR(10) NOT NULL,
+                  {8}   VARCHAR(10) NOT NULL,
+                  {9}   VARCHAR(40) NOT NULL)"
+
+
+  INSERT_VALUE : "INSERT INTO jason_dev_data (ip, macId, active, message)
+            VALUES ({%r}, {%r}, {%r}, {%r})"
+
+  FETCH_ALL: "SELECT * FROM {0}"
+
+ARP:
+  NETWORK_INTERFACE: "enp2s0"
+
+SUBNET:
+  IP  : "192.168.1.1/24"

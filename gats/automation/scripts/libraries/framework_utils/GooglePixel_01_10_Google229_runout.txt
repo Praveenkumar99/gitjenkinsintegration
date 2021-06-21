@@ -1,0 +1,19 @@
+==============================================================================
+Robot Scripts                                                                 
+==============================================================================
+Robot Scripts.Airtel Stability                                                
+==============================================================================
+TC_Airtel_Stability_001 :: Validate Attach After Reboot               | FAIL |
+*HTML* Ims registration failed <br/><b>Result Path:</b> <a href=file:///home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePixel_01_10_Google/229>TC_Airtel_Stability_001/iteration_1</a><br/>
+------------------------------------------------------------------------------
+Robot Scripts.Airtel Stability                                        | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Robot Scripts                                                         | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePixel_01_10_Google/229/TC_Airtel_Stability_001/iteration_1/output.xml
+Log:     /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePixel_01_10_Google/229/TC_Airtel_Stability_001/iteration_1/log.html
+Report:  /home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/results/GATS_PROJECT/Airtel_Stability/GooglePixel_01_10_Google/229/TC_Airtel_Stability_001/iteration_1/report.html

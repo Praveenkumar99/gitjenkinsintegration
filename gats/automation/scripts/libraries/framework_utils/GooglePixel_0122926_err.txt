@@ -1,0 +1,8 @@
+/usr/local/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/usr/local/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+- waiting for device -
+killall: logcat: No such process
+[ ERROR ] Error in file '/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts/Airtel_Stability.robot': Replacing variables from setting 'Variables' failed: Resolving variable '${dict.yaml}' failed: Variable '${dict}' not found.
+[ ERROR ] Error in file '/home/arpita/Music/gats/SDLC/Coding/Standalone_Framework/Cellular/gats/automation/scripts/robot_scripts/Live_Stability.robot': Replacing variables from setting 'Variables' failed: Resolving variable '${dict.yaml}' failed: Variable '${dict}' not found.

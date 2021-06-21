@@ -1,0 +1,15 @@
+IP:
+  FTP_IP      :  ""
+  FTP_UNAME   :  ""
+  FTP_PASSWD  :  ""
+  FTP_LOG_DIR : ""
+  FTP_LOG_CMD : "ncftpput -R -v -m"
+  FTP_FILE_COPY: "ncftpget -R -v -u "
+
+LOG_DIRECTORY:
+  PATH        : "/results/logs/"
+  SAVE_RESULT_IMAGE_ON_SUCCESS: "True"
+
+Sleep:
+  OneHourSleep: 3600
+  TwoHoursSleep:  7200
